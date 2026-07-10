@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vincent Gross Hope — Media Artist | GroXincs Enterprise</title>
-  <meta name="description" content="Vincent Gross Hope is a media artist under GroXincs Enterprise, crafting animation, motion graphics, film and photography that tell Ghanaian stories.">
+  <title>GroXincs Enterprise — Creative Media & Motion Studio</title>
+  <meta name="description" content="GroXincs Enterprise is a creative powerhouse based in Kumasi, Ghana — delivering world-class animation, motion graphics, film production, graphic design, and photography through our network of studios.">
+  <meta property="og:title" content="GroXincs Enterprise — Creative Media & Motion Studio">
+  <meta property="og:description" content="A creative powerhouse delivering world-class animation, motion graphics, film production and design from Kumasi, Ghana.">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,182 +21,299 @@
       <div class="splash-mark">
         <img src="img/groxincs-white.png" alt="GroXincs Enterprise" class="splash-logo">
       </div>
-      <p class="splash-tag">Media &amp; Motion Studio</p>
+      <p class="splash-tag">Creative Media &amp; Motion Enterprise</p>
       <div class="splash-bar"><i></i></div>
     </div>
     <span class="splash-drip"></span>
   </div>
 
-  <header class="site-header">
+  <!-- Header -->
+  <header class="site-header" id="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="#home" aria-label="GroXincs Enterprise home">
-        <img src="img/groxincs-white.png" alt="GroXincs Enterprise" class="brand-logo">
+        <img src="img/groxincs-white.png" alt="GroXincs Enterprise" class="brand-logo brand-logo--dark">
+        <img src="img/groxincs-color.png" alt="GroXincs Enterprise" class="brand-logo brand-logo--light">
       </a>
-      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a class="nav-cta" href="mailto:vincentgrosshope@gmail.com">Contact</a></li>
+        <li><a href="#studios">Studios</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
       </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark mode">
+          <span class="theme-toggle-track">
+            <span class="theme-icon theme-icon--sun" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            </span>
+            <span class="theme-icon theme-icon--moon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </span>
+            <span class="theme-toggle-thumb"></span>
+          </span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
   <main>
+    <!-- ===================== HERO ===================== -->
     <section class="panel hero-panel" id="home" data-section="Home">
       <div class="panel-shade"></div>
-      <div class="hero-content">
-        <p class="eyebrow"><span class="eyebrow-drip"></span>A GroXincs Enterprise Studio</p>
-        <h1><span>Vincent</span><strong>Gross Hope</strong></h1>
-        <p class="role">Media Artist</p>
-        <p class="hero-quote">&ldquo;Every frame is a language of its own — I build stories that move, educate and preserve.&rdquo;</p>
-        <a class="pill-button" href="#portfolio">
-          <span>Animation &amp; Film Portfolio</span>
-          <small>Click to view more</small>
-        </a>
+      <div class="hero-particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
       </div>
-      <address class="contact-strip" aria-label="Contact information">
-        <a href="tel:+233553596728"><span class="contact-icon">TEL</span>+233 55 359 6728</a>
-        <a href="mailto:vincentgrosshope@gmail.com"><span class="contact-icon">MAIL</span>vincentgrosshope@gmail.com</a>
-      </address>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-drip"></span>Kumasi, Ghana &mdash; Est. 2019</p>
+        <h1>
+          <span>GroXincs</span>
+          <strong>Enterprise</strong>
+        </h1>
+        <p class="hero-tagline">Where Creativity Meets Motion</p>
+        <p class="hero-quote">&ldquo;We build stories that move, educate and preserve — one frame at a time.&rdquo;</p>
+        <div class="hero-ctas">
+          <a class="pill-button" href="#gallery">
+            <span>Explore Our Work</span>
+            <small>View Gallery</small>
+          </a>
+          <a class="pill-button pill-button--ghost" href="#studios">
+            <span>Our Studios</span>
+            <small>Learn More</small>
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span class="scroll-label">Scroll</span>
+        <span class="scroll-line"><i></i></span>
+      </div>
     </section>
 
+    <!-- ===================== ABOUT ===================== -->
     <section class="panel about-panel" id="about" data-section="About">
       <div class="panel-shade"></div>
-      <div class="about-copy">
-        <p class="eyebrow"><span class="eyebrow-drip"></span>About</p>
-        <h2>The Artist Behind GroXincs</h2>
-        <p>
-          I am a media artist driven by the power of visuals to tell meaningful stories.
-          My creative world blends animation, motion graphics, photography, video and
-          graphic design, where every frame and composition becomes a language of its
-          own. I explore how art and technology intersect to shape experiences that
-          educate, inspire, and preserve culture. From crafting 2D and 3D animations to
-          exploring Virtual and Augmented Reality (VR/AR), my goal is to create work
-          that connects people, amplifies ideas, and reimagines how stories from Ghana
-          and beyond are seen and felt.
-        </p>
-        <p class="about-signature">Vincent Gross Hope &mdash; Founder, GroXincs Enterprise</p>
-      </div>
-      <div class="location-mark">
-        <strong>Kumasi</strong>
-        <span>Ashanti Region - Ghana</span>
-      </div>
-    </section>
-
-    <section class="panel resume-panel" id="resume" data-section="Resume">
-      <div class="panel-shade"></div>
-      <p class="eyebrow panel-eyebrow"><span class="eyebrow-drip"></span>Resume</p>
-      <div class="resume-layout">
-        <section class="resume-column skills-column" aria-labelledby="software-skills">
-          <h2 id="software-skills">Software Skills</h2>
-          <div class="skill-list">
-            <div class="skill-row"><span class="app-icon">Ps</span><span>Photoshop</span><i style="--level: 72%"></i></div>
-            <div class="skill-row"><span class="app-icon">Ai</span><span>Illustrator</span><i style="--level: 84%"></i></div>
-            <div class="skill-row"><span class="app-icon">Ae</span><span>After Effect</span><i style="--level: 64%"></i></div>
-            <div class="skill-row"><span class="app-icon">Pr</span><span>Premiere Pro</span><i style="--level: 61%"></i></div>
-            <div class="skill-row"><span class="app-icon">Id</span><span>InDesign</span><i style="--level: 67%"></i></div>
-            <div class="skill-row"><span class="app-icon">LrC</span><span>Lightroom Classic</span><i style="--level: 76%"></i></div>
-            <div class="skill-row"><span class="app-icon">M</span><span>Autodesk Maya</span><i style="--level: 61%"></i></div>
-            <div class="skill-row"><span class="app-icon round">C4D</span><span>Cinema 4D</span><i style="--level: 48%"></i></div>
-          </div>
-        </section>
-
-        <section class="resume-column experience-column" aria-labelledby="experience">
-          <h2 id="experience">Experience</h2>
-          <div class="timeline">
-            <article>
-              <time>Nov. 2021<br>to present</time>
-              <div>
-                <h3>University Relations Office, KNUST</h3>
-                <p>Media Technician</p>
-              </div>
-            </article>
-            <article>
-              <time>Sept. 2021<br>to Nov. 2021</time>
-              <div>
-                <h3>Prempeh II Library &amp; TEK TV, KNUST</h3>
-                <p>Media Technician</p>
-              </div>
-            </article>
-            <article>
-              <time>2019<br>to 2021</time>
-              <div>
-                <h3>Dept. of Communication Design, KNUST</h3>
-                <p>Teaching Assistant (2019 - 2020) and Graduate Assistant (2021)</p>
-              </div>
-            </article>
-            <article>
-              <time>2018<br>to 2019</time>
-              <div>
-                <h3>CAFDIL TV, Cape Coast</h3>
-                <p>Broadcast Designer</p>
-              </div>
-            </article>
-          </div>
-
-          <div class="education">
-            <h2>Education</h2>
-            <h3>MPhil. Communication Design</h3>
-            <p>Kwame Nkrumah University of Science and Technology</p>
-            <h3>BA. Communication Design</h3>
-            <p>Kwame Nkrumah University of Science and Technology</p>
-          </div>
-        </section>
-
-        <aside class="resume-column extras-column">
-          <section>
-            <h2>What Can I Do?</h2>
-            <p>2D / 3D Animation<br>and motion Graphics</p>
-            <p>Graphic Design and illustration</p>
-            <p>Photography and Videography</p>
-          </section>
-          <section>
-            <h2>Hobbies &amp; Interests</h2>
-            <div class="hobbies">
-              <span><b>FILM</b>Movies</span>
-              <span><b>GAME</b>Video Games</span>
-            </div>
-          </section>
-          <section>
-            <h2>Languages</h2>
-            <p>English<br>Twi</p>
-          </section>
-          <a class="pill-button small" href="#portfolio">
-            <span>Full Resume</span>
-            <small>Click to view more</small>
-          </a>
-        </aside>
-      </div>
-    </section>
-
-    <section class="panel portfolio-panel" id="portfolio" data-section="Portfolio">
-      <div class="panel-shade"></div>
-      <div class="portfolio-shell">
-        <div class="portfolio-heading">
-          <p class="eyebrow"><span class="eyebrow-drip"></span>Portfolio</p>
-          <h2>Latest Works</h2>
+      <div class="about-layout">
+        <div class="about-copy">
+          <p class="eyebrow"><span class="eyebrow-drip"></span>Our Story</p>
+          <h2>A Creative Powerhouse<br>Born in Ghana</h2>
+          <p>
+            GroXincs Enterprise is a multi-studio creative powerhouse based in Kumasi, Ghana.
+            Founded on the belief that African stories deserve world-class visual language,
+            we bring together animation, motion graphics, film production, graphic design
+            and photography under one enterprise — telling stories that educate, inspire and
+            preserve culture across Ghana and beyond.
+          </p>
+          <p>
+            From 2D and 3D animations to Virtual Reality experiences and brand campaigns,
+            every project we undertake is driven by a commitment to visual excellence,
+            cultural authenticity, and creative innovation.
+          </p>
+          <p class="about-founder">
+            <span class="founder-label">Founded by</span>
+            <strong>Vincent Gross Hope</strong>
+            <span class="founder-title">Creative Director &amp; CEO, GroXincs Enterprise</span>
+          </p>
         </div>
+        <div class="about-visual">
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Years of Excellence</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Delivered</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Creative Studios</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">GH</span>
+              <span class="stat-label">Proudly Ghanaian</span>
+            </div>
+          </div>
+          <div class="location-badge">
+            <strong>Kumasi</strong>
+            <span>Ashanti Region &mdash; Ghana</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ===================== STUDIOS ===================== -->
+    <section class="panel studios-panel" id="studios" data-section="Studios">
+      <div class="panel-shade"></div>
+      <div class="studios-shell">
+        <div class="section-header">
+          <p class="eyebrow panel-eyebrow"><span class="eyebrow-drip"></span>Our Network</p>
+          <h2>Studios &amp; Divisions</h2>
+          <p class="section-sub">GroXincs Enterprise is the mother company for a growing network of specialized creative studios. Each division brings deep expertise in its craft — unified by a shared vision of creative excellence.</p>
+        </div>
+        <div class="studios-grid" id="studios-grid">
+          <!-- Studio cards — names to be added by owner -->
+          <article class="studio-card studio-card--coming">
+            <div class="studio-card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+            </div>
+            <h3 class="studio-name">Studio Name TBA</h3>
+            <p class="studio-desc">Description coming soon. This division specializes in high-quality video production and motion content.</p>
+            <span class="studio-tag">Coming Soon</span>
+          </article>
+          <article class="studio-card studio-card--coming">
+            <div class="studio-card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="10" r="3"/><path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/></svg>
+            </div>
+            <h3 class="studio-name">Studio Name TBA</h3>
+            <p class="studio-desc">Description coming soon. This division focuses on animation, motion graphics and digital storytelling.</p>
+            <span class="studio-tag">Coming Soon</span>
+          </article>
+          <article class="studio-card studio-card--coming">
+            <div class="studio-card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            </div>
+            <h3 class="studio-name">Studio Name TBA</h3>
+            <p class="studio-desc">Description coming soon. This division covers photography, graphic design, and brand visual identity.</p>
+            <span class="studio-tag">Coming Soon</span>
+          </article>
+          <article class="studio-card studio-card--coming">
+            <div class="studio-card-icon">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="studio-name">Studio Name TBA</h3>
+            <p class="studio-desc">Description coming soon. This division handles research, education media and immersive digital experiences.</p>
+            <span class="studio-tag">Coming Soon</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="panel services-panel" id="services" data-section="Services">
+      <div class="panel-shade"></div>
+      <div class="services-shell">
+        <div class="section-header">
+          <p class="eyebrow panel-eyebrow"><span class="eyebrow-drip"></span>What We Do</p>
+          <h2>Our Services</h2>
+          <p class="section-sub">From concept to final render, GroXincs Enterprise delivers premium creative services that make your vision come to life.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l14 9-14 9V3z"/></svg>
+            </div>
+            <h3>2D &amp; 3D Animation</h3>
+            <p>Character animation, explainer videos, educational animations and cinematic 3D sequences crafted with precision and creativity.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Motion Graphics</h3>
+            <p>Eye-catching motion graphics for broadcast, digital campaigns, social media and corporate communications.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <h3>Film &amp; Video Production</h3>
+            <p>Documentaries, commercials, event coverage, campus tours and professional video content from pre-production to post.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </div>
+            <h3>Graphic Design</h3>
+            <p>Brand identity, flyer designs, posters, illustrations, and print/digital materials that speak your brand's language.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            </div>
+            <h3>Photography</h3>
+            <p>Professional photography for events, portraits, products, and editorial — capturing moments with an artistic eye.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h3>VR / AR Experiences</h3>
+            <p>Immersive Virtual and Augmented Reality experiences for education, heritage preservation, and digital storytelling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="panel gallery-panel" id="gallery" data-section="Gallery">
+      <div class="panel-shade"></div>
+      <div class="gallery-shell">
+        <div class="section-header">
+          <p class="eyebrow panel-eyebrow"><span class="eyebrow-drip"></span>Our Portfolio</p>
+          <h2>Our Work</h2>
+        </div>
         <div class="filter-row" id="filter-row" role="tablist" aria-label="Filter projects by type"></div>
-
         <div class="project-grid-cards" id="project-grid"></div>
       </div>
     </section>
 
-    <footer class="site-footer">
-      <div class="footer-brand">
-        <img src="img/groxincs-white.png" alt="GroXincs Enterprise" class="footer-logo">
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+        <div class="contact-copy">
+          <p class="eyebrow"><span class="eyebrow-drip"></span>Get In Touch</p>
+          <h2>Let's Create Something<br>Extraordinary</h2>
+          <p>Ready to bring your vision to life? Reach out to GroXincs Enterprise and let's start the conversation.</p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-item" href="tel:+233553596728">
+            <span class="contact-item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.59 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <span>+233 55 359 6728</span>
+          </a>
+          <a class="contact-item" href="mailto:vincentgrosshope@gmail.com">
+            <span class="contact-item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </span>
+            <span>vincentgrosshope@gmail.com</span>
+          </a>
+          <a class="contact-item" href="#">
+            <span class="contact-item-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-11 6.5h2m-1 4h.01"/></svg>
+            </span>
+            <span>Kumasi, Ashanti Region — Ghana</span>
+          </a>
+        </div>
+        <a class="pill-button" href="mailto:vincentgrosshope@gmail.com" id="contact-cta">
+          <span>Start a Project</span>
+          <small>Send us an email</small>
+        </a>
       </div>
-      <p>&copy; <span id="year"></span> GroXincs Enterprise. All Rights Reserved.</p>
-      <div class="footer-contact">
-        <a href="tel:+233553596728">+233 55 359 6728</a>
-        <a href="mailto:vincentgrosshope@gmail.com">vincentgrosshope@gmail.com</a>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="img/groxincs-white.png" alt="GroXincs Enterprise" class="footer-logo footer-logo--dark">
+          <img src="img/groxincs-color.png" alt="GroXincs Enterprise" class="footer-logo footer-logo--light">
+          <p>Creative Media &amp; Motion Enterprise</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#studios">Studios</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-copy">&copy; <span id="year"></span> GroXincs Enterprise. All Rights Reserved. &mdash; Kumasi, Ghana</p>
       </div>
     </footer>
   </main>
