@@ -112,6 +112,7 @@ img { max-width: 100%; display: block; }
   z-index: 1;
   display: grid;
   justify-items: center;
+  text-align: center;
   gap: 22px;
   opacity: 0;
   transform: translateY(14px);
